@@ -1,0 +1,197 @@
+html{
+	/*background-color: #EBEBE0;*/
+
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+/*Header do Body - Foto dos Girassóis*/
+.background{
+	height: 200px;
+	width: 100%;
+}
+
+.background img{
+	height: 200px;
+	width: 100%;
+	background-image: url(img/girassol.jpg);
+	object-fit: cover;
+}
+
+/*Section do Body - Foto Perfil*/
+.perfil{
+	width: 1040px;
+	margin: -150px auto 0;
+	display: flex;
+}
+
+/*Div dentro do Perfil do Body - Minha Foto*/
+.foto {
+	max-width: 250px;
+	max-height: : 250px;
+}
+
+.foto img{
+	max-width: 250px;
+	max-height: : 250px;
+}
+
+/*Div dentro do Perfil do Body - Meu nome*/
+.nome{
+	margin-top: 150px;
+	margin-left: 50px; 
+}
+
+.nome h1{
+	color: orange;
+}
+
+.nome h2{
+	color: gray;
+}
+
+/*Section do Body - Menu da página*/
+.menu{
+	width: 1040px;
+	margin: 50px auto 0;
+	display: flex;
+}
+
+.trabalho{
+	margin-right: 20px; 
+}
+
+.trabalho img{
+	box-shadow: 0 7px 15px #CCCCCC;
+}
+
+.faculdade{
+	margin-top: 30px; 
+	margin-right: 20px; 
+}
+
+.faculdade img{
+	box-shadow: 0 7px 15px #CCCCCC;
+}
+
+.midia{
+	margin-right: 20px;
+}
+
+.midia img{
+	box-shadow: 0 7px 15px #CCCCCC;
+}
+
+.hobby{
+	margin-top: 30px; 
+}
+
+.hobby img{
+	box-shadow: 0 7px 15px #CCCCCC;
+}
+
+/*Section da Intersetion - Menu da página*/
+.meio img{
+	height: 150px;
+	width: 100%;
+	margin: 50px auto 0;
+	background-image: url(img/meio.jpg);
+}
+
+.frase h1{
+	width: 1040px;
+	margin: -90px auto 0;
+	text-align: center;
+	color: white;
+}
+
+/*Section das páginas - Trabalho*/
+.page_trabalho{
+	width: 1150px;
+	height: 100%;
+	margin: 100px auto 0;
+	display: flex;
+	background-image: url(img/pg_trabalho.jpg);
+	float: right;
+}
+
+.txt_trabalho{
+	float: left;
+	height: 100%;
+	width: 50%;
+	margin-right: 50px;
+}
+
+.txt_trabalho h2{
+	color: #800080;
+}
+
+/*Section das páginas - Faculdade*/
+.page_faculdade{
+	width: 100%;
+	height: 100%;
+	margin: 50px auto 0;
+	display: flex;
+	background-image: url(img/pg_faculdade.jpg);
+	float: left;
+
+	background-color: #ADD8E6;
+}
+
+.txt_faculdade{
+	float: left;
+	height: 100%;
+	width: 50%;
+	margin-left: 100px;
+}
+
+.txt_faculdade h2{
+	color: #800080;
+}
+
+/*Section das páginas - Redes Sociais*/
+.page_midia{
+	width: 100%;
+	height: 100%;
+	margin: 50px auto 0;
+	display: flex;
+	background-image: url(img/pg_midia.jpg);
+	float: right;
+
+	background-color: #ADD8E6;
+}
+
+.txt_midia{
+	float: left;
+	height: 100%;
+	width: 50%;
+	margin-left: 200px;
+}
+
+.txt_midia h2{
+	color: #800080;
+}
+
+/*Section das páginas - Hobby*/
+.page_hobby{
+	width: 100%;
+	height: 100%;
+	margin: 50px auto 0;
+	display: flex;
+	background-image: url(img/pg_hobby.jpg);
+	float: left;
+}
+
+.txt_hobby{
+	float: right;
+	height: 100%;
+	width: 50%;
+	margin-right: 50px;
+}
+
+.txt_hobby h2{
+	color: #800080;
+}
